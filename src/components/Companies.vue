@@ -35,6 +35,13 @@
       </div>
     </a>
   </div>
+  <div class="airbnb-card">
+      <a href="" class="card">
+      <div class="thumb">
+        <img src='../assets/airbnb.png' alt="Airbnb" class="company-img" />
+      </div>
+    </a>
+  </div>
 </div>
 </template>
 
