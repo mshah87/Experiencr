@@ -16,7 +16,6 @@ header {
   width: 90%;
   max-width: 1240px;
   margin: 0 auto;
-  padding-top: 100px;
-  padding-bottom: 50px;
+  padding: 50px;
 }
 </style>
