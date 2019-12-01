@@ -79,6 +79,7 @@ export default {
 .card {
   background: white;
   text-decoration: none;
+  border-radius: 20px;
   color: #444;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   display: flex;
@@ -86,10 +87,10 @@ export default {
   min-height: 60%;
   position: relative;
   top: 0;
-  transition: all .1s ease-in;
+  transition: all .2s ease-in;
 }
 .card:hover {
-  top: -2px;
+  top: -6px;
   box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
 }
 .card .thumb {
@@ -98,12 +99,6 @@ export default {
 }
 
 /* card styling */
-.microsoft-card {
-  cursor: pointer;
-  background-color: #f7f7f7;
-  position: relative;
-}
-
 .company-img {
   width: 80px;
   position: absolute;
