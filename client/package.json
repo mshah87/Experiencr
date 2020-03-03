@@ -18,6 +18,7 @@
     "jquery": "^3.4.1",
     "uikit": "^3.3.2-dev.25079c16b",
     "vue": "^2.6.11",
+    "vue-fragment": "^1.5.1",
     "vuikit": "^0.8.10"
   },
   "devDependencies": {

@@ -1,50 +1,50 @@
 <template>
   <vk-grid matched class="uk-child-width-1-3@s">
     <div>
-      <vk-card href="#modal-container" uk-toggle padding="large" hover>
+      <vk-card href="#modal-microsoft" uk-toggle padding="large" hover>
             <div class="thumb">
             <img src='../assets/msft.png' alt="Microsoft" class="company-img" />
           </div>
       </vk-card>
     </div>
     <div>
-      <vk-card href="#modal-container" uk-toggle padding="large" hover>
+      <vk-card href="#modal-google" uk-toggle padding="large" hover>
         <div class="thumb">
           <img src='../assets/google.png' alt="Google" class="company-img" />
         </div>
       </vk-card>
     </div>
-
-    <Modal/>
-
     <div>
-      <vk-card href="#modal-container" uk-toggle padding="large" hover>
+      <vk-card href="#modal-facebook" uk-toggle padding="large" hover>
         <div class="thumb">
           <img src='../assets/fb.png' alt="Facebook" class="company-img-fb" />
         </div>
       </vk-card>
     </div>
     <div>
-      <vk-card href="#modal-container" uk-toggle padding="large" hover>
+      <vk-card href="#modal-apple" uk-toggle padding="large" hover>
         <div class="thumb">
           <img src='../assets/apple.png' alt="Apple" class="company-img" />
         </div>
       </vk-card>
     </div>
     <div>
-      <vk-card href="#modal-container" uk-toggle padding="large" hover>
+      <vk-card href="#modal-amazons" uk-toggle padding="large" hover>
         <div class="thumb">
           <img src='../assets/amazon.png' alt="Amazon" class="company-img-amazon" />
         </div>
       </vk-card>
     </div>
     <div>
-      <vk-card href="#modal-container" uk-toggle padding="large" hover>
+      <vk-card href="#modal-airbnb" uk-toggle padding="large" hover>
         <div class="thumb">
           <img src='../assets/airbnb.png' alt="Airbnb" class="company-img-airbnb" />
         </div>
       </vk-card>
     </div>
+
+    <Modal/>
+
   </vk-grid>
 </template>
 
@@ -56,11 +56,6 @@ export default {
   name: "Companies",
   components:{
     Modal,
-  },
-   data() {
-        return {
-          show1: false,
-    };
   }
 }
 </script>
