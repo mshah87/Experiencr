@@ -15,7 +15,7 @@
     "core-js": "^3.4.2",
     "express": "^4.17.1",
     "googleapis": "^45.0.0",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "uikit": "^3.3.2-dev.25079c16b",
     "vue": "^2.6.11",
     "vue-fragment": "^1.5.1",
